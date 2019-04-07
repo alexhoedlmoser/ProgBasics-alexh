@@ -26,7 +26,14 @@ public class ProgBasics : MonoBehaviour {
         //Gleichheits Operatoren
         Debug.Log("Gleichheits Operatoren: 10==10 = " + (10 == 10));
         Debug.Log("Gleichheits Operatoren: 10!=10 = " + (10 != 10));
+
+        //Logische Operatoren
+        Debug.Log("Logische Operatoren: true&true = " + (true & true));
+        Debug.Log("Logische Operatoren: false&&true = " + (false && true));
+        Debug.Log("Logische Operatoren: false|true = " + (false | true));
+        Debug.Log("Logische Operatoren: true||false = " + (true || false));
     }
+
 	
 	// Update is called once per frame
 	void Update () {
