@@ -22,6 +22,10 @@ public class ProgBasics : MonoBehaviour {
         Debug.Log("Relationale Operatoren: 10<=10 = " + (10 <= 10));
         Debug.Log("Relationale Operatoren: 10>3 = " + (10 > 3));
         Debug.Log("Relationale Operatoren: 10>=3 = " + (10 >= 11));
+
+        //Gleichheits Operatoren
+        Debug.Log("Gleichheits Operatoren: 10==10 = " + (10 == 10));
+        Debug.Log("Gleichheits Operatoren: 10!=10 = " + (10 != 10));
     }
 	
 	// Update is called once per frame
