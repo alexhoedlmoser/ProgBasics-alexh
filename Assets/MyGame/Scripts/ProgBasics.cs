@@ -16,6 +16,12 @@ public class ProgBasics : MonoBehaviour {
         //Additive Operatoren
         Debug.Log("Additive Operatoren: 10+3 = " + (10 + 3));
         Debug.Log("Additive Operatoren: 10-3 = " + (10 - 3));
+
+        //Relationale Operatoren
+        Debug.Log("Relationale Operatoren: 10<3 = " + (10 < 3));
+        Debug.Log("Relationale Operatoren: 10<=10 = " + (10 <= 10));
+        Debug.Log("Relationale Operatoren: 10>3 = " + (10 > 3));
+        Debug.Log("Relationale Operatoren: 10>=3 = " + (10 >= 11));
     }
 	
 	// Update is called once per frame
