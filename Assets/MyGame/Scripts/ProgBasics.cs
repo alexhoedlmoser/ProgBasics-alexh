@@ -5,9 +5,17 @@ using UnityEngine;
 public class ProgBasics : MonoBehaviour {
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
+        Operators();
+        XY();
+        VoidMethod();
+    }
+    
+    public void Operators()
+    {
         Debug.Log("erste Tests mit Operatoren");
-        
+
         //Multiplikative Operatoren
         Debug.Log("Multiplikative Operatoren: 10*3 = " + (10 * 3));
         Debug.Log("Multiplikative Operatoren: 9/3 = " + (9 / 3));
@@ -34,9 +42,19 @@ public class ProgBasics : MonoBehaviour {
         Debug.Log("Logische Operatoren: true||false = " + (true || false));
     }
 
-	
+    public void XY()
+    {
+        Debug.Log("XY");
+    }
+
+    public void VoidMethod()
+    {
+        Debug.Log("This is a method with no return type");
+    }
+
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		
 	}
 }
