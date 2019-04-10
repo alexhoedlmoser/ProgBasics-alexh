@@ -10,6 +10,8 @@ public class ProgBasics : MonoBehaviour {
         Operators();
         XY();
         VoidMethod();
+        AddNumbers(5, 3);
+        MultNumbers(1, 3, 5, 7);
     }
     
     public void Operators()
@@ -52,8 +54,20 @@ public class ProgBasics : MonoBehaviour {
         Debug.Log("This is a method with no return type");
     }
 
-	// Update is called once per frame
-	void Update ()
+    public void AddNumbers(int a, int b)
+    {
+        int c = a + b;
+        Debug.Log("add numbers = " + c);
+    }
+
+    public void MultNumbers(int a, int b, int c, int d)
+    {
+        int e = a * b * c * d;
+        Debug.Log("multiply numbers = " + e);
+    }
+
+    // Update is called once per frame
+    void Update ()
     {
 		
 	}
