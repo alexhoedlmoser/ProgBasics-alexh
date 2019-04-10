@@ -8,10 +8,15 @@ public class ProgBasics : MonoBehaviour {
 	void Start ()
     {
         Operators();
-        XY();
-        VoidMethod();
-        AddNumbers(5, 3);
-        MultNumbers(1, 3, 5, 7);
+        //XY();
+        //VoidMethod();
+        //AddNumbers(5, 3);
+        //MultNumbers(4, 2, 3, 8);
+        Combine();
+        Debug.Log(MyText("alexh"));
+        string drama = MyText("alexh");
+        Debug.Log("neu " + drama);
+        
     }
     
     public void Operators()
@@ -64,6 +69,17 @@ public class ProgBasics : MonoBehaviour {
     {
         int e = a * b * c * d;
         Debug.Log("multiply numbers = " + e);
+    }
+
+    public void Combine()
+    {
+        AddNumbers(7, 2);
+        MultNumbers(5, 2, 4, 6);
+    }
+
+    public string MyText(string myName)
+    {
+        return "Drama" + " " + myName;
     }
 
     // Update is called once per frame
