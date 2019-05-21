@@ -5,13 +5,13 @@ using TMPro;
 
 public class Collectible : MonoBehaviour
 {
+    private int score = 0;
+    public TextMeshProUGUI scoreVisualizer;
+
     void Start()
     {
         scoreVisualizer.text = score.ToString();
     }
-
-    private int score = 0;
-    public TextMeshProUGUI scoreVisualizer;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
