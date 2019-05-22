@@ -22,6 +22,7 @@ public class Collectible : MonoBehaviour
             score += 5;
             Debug.Log("score: " + score);
             scoreVisualizer.text = score.ToString();
+            Destroy(gameObject, 0f);
         }
         else if (collision.gameObject.name == "GhostLine")
         {
